@@ -73,7 +73,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.22745098039215686" green="0.52156862745098043" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZw-qp-dDv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="ZZw-qp-dDv">
                                 <rect key="frame" x="55" y="369" width="272" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
@@ -96,6 +96,7 @@
                         <outlet property="btUnit2" destination="CGl-hr-a4i" id="Cd5-O9-3MJ"/>
                         <outlet property="lbResult" destination="ZZw-qp-dDv" id="Fco-Ih-QqH"/>
                         <outlet property="lbResultUnit" destination="H6S-Cw-5Yt" id="bWx-Cm-ybh"/>
+                        <outlet property="lbUnit" destination="HYe-px-2jk" id="hX6-YY-Kb7"/>
                         <outlet property="tfValue" destination="gK3-xu-auR" id="uq5-nb-XCn"/>
                     </connections>
                 </viewController>

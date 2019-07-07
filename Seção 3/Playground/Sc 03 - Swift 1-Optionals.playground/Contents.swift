@@ -9,8 +9,9 @@ var str = "Hello, playground"
  */
 
 var driverLicense: Int?
-//driverLicense = 41562743
+driverLicense = 41562743
 // print("A minha carteira de motorista é:", driverLicense!) // Desembrulhando o Optional (unwrap) modo arriscado
+
 
 // Optional binding (modo seguro) para desempacotar um Optional
 
@@ -29,10 +30,10 @@ if let addressNumber = adressNumber {
 let number: String = "578"
 let addressNumber2 = Int(number) ?? 0 // ?? Operador de coalescencia nula, ele tenta desembrulhar o valor Optional da variavel se nao der certo ele coloca  0.
 
-//Impliscit Unwrapped Optionals
+//Impliscit Unwrapped Optionals 3 possiblidade de desempacotar
 
-var name2: String
-name2 = "PauloRicardo"
+var name2: String!
+name2 = "Sousa de Oliveira "
 if name2 != nil {
     print(name2)
 }

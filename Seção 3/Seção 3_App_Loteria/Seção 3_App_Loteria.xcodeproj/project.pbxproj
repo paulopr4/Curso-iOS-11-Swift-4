@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		903AD8B622BE257B00B03D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903AD8B522BE257B00B03D92 /* AppDelegate.swift */; };
-		903AD8B822BE257B00B03D92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903AD8B722BE257B00B03D92 /* ViewController.swift */; };
-		903AD8BB22BE257B00B03D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903AD8B922BE257B00B03D92 /* Main.storyboard */; };
-		903AD8BD22BE257D00B03D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903AD8BC22BE257D00B03D92 /* Assets.xcassets */; };
-		903AD8C022BE257D00B03D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903AD8BE22BE257D00B03D92 /* LaunchScreen.storyboard */; };
+		9083962522C7E31F0069F22B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083962422C7E31F0069F22B /* AppDelegate.swift */; };
+		9083962722C7E31F0069F22B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083962622C7E31F0069F22B /* ViewController.swift */; };
+		9083962A22C7E31F0069F22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9083962822C7E31F0069F22B /* Main.storyboard */; };
+		9083962F22C7E3210069F22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9083962D22C7E3210069F22B /* LaunchScreen.storyboard */; };
+		90A59D3722D29559008110A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A59D3622D29559008110A6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		903AD8B222BE257B00B03D92 /* Seção 3_App_Conversores_02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seção 3_App_Conversores_02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		903AD8B522BE257B00B03D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		903AD8B722BE257B00B03D92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		903AD8BA22BE257B00B03D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		903AD8BC22BE257D00B03D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		903AD8BF22BE257D00B03D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		903AD8C122BE257D00B03D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9083962122C7E31F0069F22B /* Seção 3_App_Loteria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seção 3_App_Loteria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9083962422C7E31F0069F22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9083962622C7E31F0069F22B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9083962922C7E31F0069F22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9083962E22C7E3210069F22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9083963022C7E3210069F22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A59D3622D29559008110A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		903AD8AF22BE257B00B03D92 /* Frameworks */ = {
+		9083961E22C7E31F0069F22B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		903AD8A922BE257B00B03D92 = {
+		9083961822C7E31F0069F22B = {
 			isa = PBXGroup;
 			children = (
-				903AD8B422BE257B00B03D92 /* Seção 3_App_Conversores_02 */,
-				903AD8B322BE257B00B03D92 /* Products */,
+				9083962322C7E31F0069F22B /* Seção 3_App_Loteria */,
+				9083962222C7E31F0069F22B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		903AD8B322BE257B00B03D92 /* Products */ = {
+		9083962222C7E31F0069F22B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				903AD8B222BE257B00B03D92 /* Seção 3_App_Conversores_02.app */,
+				9083962122C7E31F0069F22B /* Seção 3_App_Loteria.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		903AD8B422BE257B00B03D92 /* Seção 3_App_Conversores_02 */ = {
+		9083962322C7E31F0069F22B /* Seção 3_App_Loteria */ = {
 			isa = PBXGroup;
 			children = (
-				903AD8B522BE257B00B03D92 /* AppDelegate.swift */,
-				903AD8B722BE257B00B03D92 /* ViewController.swift */,
-				903AD8B922BE257B00B03D92 /* Main.storyboard */,
-				903AD8BC22BE257D00B03D92 /* Assets.xcassets */,
-				903AD8BE22BE257D00B03D92 /* LaunchScreen.storyboard */,
-				903AD8C122BE257D00B03D92 /* Info.plist */,
+				9083962422C7E31F0069F22B /* AppDelegate.swift */,
+				9083962622C7E31F0069F22B /* ViewController.swift */,
+				9083962822C7E31F0069F22B /* Main.storyboard */,
+				90A59D3622D29559008110A6 /* Assets.xcassets */,
+				9083962D22C7E3210069F22B /* LaunchScreen.storyboard */,
+				9083963022C7E3210069F22B /* Info.plist */,
 			);
-			path = "Seção 3_App_Conversores_02";
+			path = "Seção 3_App_Loteria";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		903AD8B122BE257B00B03D92 /* Seção 3_App_Conversores_02 */ = {
+		9083962022C7E31F0069F22B /* Seção 3_App_Loteria */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 903AD8C422BE257D00B03D92 /* Build configuration list for PBXNativeTarget "Seção 3_App_Conversores_02" */;
+			buildConfigurationList = 9083963322C7E3210069F22B /* Build configuration list for PBXNativeTarget "Seção 3_App_Loteria" */;
 			buildPhases = (
-				903AD8AE22BE257B00B03D92 /* Sources */,
-				903AD8AF22BE257B00B03D92 /* Frameworks */,
-				903AD8B022BE257B00B03D92 /* Resources */,
+				9083961D22C7E31F0069F22B /* Sources */,
+				9083961E22C7E31F0069F22B /* Frameworks */,
+				9083961F22C7E31F0069F22B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Seção 3_App_Conversores_02";
-			productName = "Seção 3_App_Conversores_02";
-			productReference = 903AD8B222BE257B00B03D92 /* Seção 3_App_Conversores_02.app */;
+			name = "Seção 3_App_Loteria";
+			productName = "Seção 3_App_Loteria";
+			productReference = 9083962122C7E31F0069F22B /* Seção 3_App_Loteria.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		903AD8AA22BE257B00B03D92 /* Project object */ = {
+		9083961922C7E31F0069F22B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = paulopr4;
 				TargetAttributes = {
-					903AD8B122BE257B00B03D92 = {
+					9083962022C7E31F0069F22B = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 903AD8AD22BE257B00B03D92 /* Build configuration list for PBXProject "Seção 3_App_Conversores_02" */;
+			buildConfigurationList = 9083961C22C7E31F0069F22B /* Build configuration list for PBXProject "Seção 3_App_Loteria" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 903AD8A922BE257B00B03D92;
-			productRefGroup = 903AD8B322BE257B00B03D92 /* Products */;
+			mainGroup = 9083961822C7E31F0069F22B;
+			productRefGroup = 9083962222C7E31F0069F22B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				903AD8B122BE257B00B03D92 /* Seção 3_App_Conversores_02 */,
+				9083962022C7E31F0069F22B /* Seção 3_App_Loteria */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		903AD8B022BE257B00B03D92 /* Resources */ = {
+		9083961F22C7E31F0069F22B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903AD8C022BE257D00B03D92 /* LaunchScreen.storyboard in Resources */,
-				903AD8BD22BE257D00B03D92 /* Assets.xcassets in Resources */,
-				903AD8BB22BE257B00B03D92 /* Main.storyboard in Resources */,
+				9083962F22C7E3210069F22B /* LaunchScreen.storyboard in Resources */,
+				90A59D3722D29559008110A6 /* Assets.xcassets in Resources */,
+				9083962A22C7E31F0069F22B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		903AD8AE22BE257B00B03D92 /* Sources */ = {
+		9083961D22C7E31F0069F22B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903AD8B822BE257B00B03D92 /* ViewController.swift in Sources */,
-				903AD8B622BE257B00B03D92 /* AppDelegate.swift in Sources */,
+				9083962722C7E31F0069F22B /* ViewController.swift in Sources */,
+				9083962522C7E31F0069F22B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		903AD8B922BE257B00B03D92 /* Main.storyboard */ = {
+		9083962822C7E31F0069F22B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				903AD8BA22BE257B00B03D92 /* Base */,
+				9083962922C7E31F0069F22B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		903AD8BE22BE257D00B03D92 /* LaunchScreen.storyboard */ = {
+		9083962D22C7E3210069F22B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				903AD8BF22BE257D00B03D92 /* Base */,
+				9083962E22C7E3210069F22B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		903AD8C222BE257D00B03D92 /* Debug */ = {
+		9083963122C7E3210069F22B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		903AD8C322BE257D00B03D92 /* Release */ = {
+		9083963222C7E3210069F22B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,64 +278,64 @@
 			};
 			name = Release;
 		};
-		903AD8C522BE257D00B03D92 /* Debug */ = {
+		9083963422C7E3210069F22B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PC76ST9CMU;
-				INFOPLIST_FILE = "Seção 3_App_Conversores_02/Info.plist";
+				INFOPLIST_FILE = "Seção 3_App_Loteria/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pr4trade.paulo.Sec-a-o-3-App-Conversores-02";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pr4trade.paulo.Sec-a-o-3-App-Loteria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		903AD8C622BE257D00B03D92 /* Release */ = {
+		9083963522C7E3210069F22B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PC76ST9CMU;
-				INFOPLIST_FILE = "Seção 3_App_Conversores_02/Info.plist";
+				INFOPLIST_FILE = "Seção 3_App_Loteria/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pr4trade.paulo.Sec-a-o-3-App-Conversores-02";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pr4trade.paulo.Sec-a-o-3-App-Loteria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		903AD8AD22BE257B00B03D92 /* Build configuration list for PBXProject "Seção 3_App_Conversores_02" */ = {
+		9083961C22C7E31F0069F22B /* Build configuration list for PBXProject "Seção 3_App_Loteria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				903AD8C222BE257D00B03D92 /* Debug */,
-				903AD8C322BE257D00B03D92 /* Release */,
+				9083963122C7E3210069F22B /* Debug */,
+				9083963222C7E3210069F22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		903AD8C422BE257D00B03D92 /* Build configuration list for PBXNativeTarget "Seção 3_App_Conversores_02" */ = {
+		9083963322C7E3210069F22B /* Build configuration list for PBXNativeTarget "Seção 3_App_Loteria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				903AD8C522BE257D00B03D92 /* Debug */,
-				903AD8C622BE257D00B03D92 /* Release */,
+				9083963422C7E3210069F22B /* Debug */,
+				9083963522C7E3210069F22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 903AD8AA22BE257B00B03D92 /* Project object */;
+	rootObject = 9083961922C7E31F0069F22B /* Project object */;
 }
