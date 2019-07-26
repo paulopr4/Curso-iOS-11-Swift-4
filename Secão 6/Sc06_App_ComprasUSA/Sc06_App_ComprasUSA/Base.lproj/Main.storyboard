@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Compras-->
+        <scene sceneID="3ek-Tr-vlm">
+            <objects>
+                <viewController id="Fjs-b0-guO" customClass="ViewController" customModule="Sc06_App_ComprasUSA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="inZ-DS-Gjl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lcn-yn-DTZ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Compras" selectedImage="bag" id="a91-bi-1XO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wDL-Fp-ix7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-28" y="263"/>
+        </scene>
+        <!--Configurações-->
+        <scene sceneID="W8f-Lc-Cs9">
+            <objects>
+                <viewController id="Zgm-Tl-d3F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dfI-U3-iFX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.80392156859999997" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="XGU-Xt-QRi"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Configurações" selectedImage="settings" id="YTp-vj-RW5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wFX-YR-sGG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817" y="263"/>
+        </scene>
+        <!--Impostos-->
+        <scene sceneID="Znv-wi-DEw">
+            <objects>
+                <viewController id="XeR-6Y-8fY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tIr-MO-mxw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.36862745099999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="PSp-f0-Zma"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Impostos" selectedImage="taxes" id="IQQ-1U-JJZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jCu-NR-kvO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1590" y="263"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="X2V-hY-Cr4">
+            <objects>
+                <tabBarController id="fk1-jQ-tds" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aQq-Jp-alP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Zgm-Tl-d3F" kind="relationship" relationship="viewControllers" id="vf8-YO-yCS"/>
+                        <segue destination="Fjs-b0-guO" kind="relationship" relationship="viewControllers" id="h0B-ZD-2Yo"/>
+                        <segue destination="XeR-6Y-8fY" kind="relationship" relationship="viewControllers" id="lNw-zZ-0Lc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mvI-4L-0Q0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816" y="-478"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bag" width="23" height="23"/>
+        <image name="settings" width="23" height="23"/>
+        <image name="taxes" width="23" height="23"/>
+    </resources>
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sc06_App_Imagens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="hzz-Aq-Zcr">
+                                <rect key="frame" x="0.0" y="-8" width="414" height="904"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift2" translatesAutoresizingMaskIntoConstraints="NO" id="h5J-BQ-LBe">
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hzz-Aq-Zcr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2Ce-q0-ktW"/>
+                            <constraint firstItem="hzz-Aq-Zcr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3QR-qi-Gin"/>
+                            <constraint firstItem="h5J-BQ-LBe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7rP-DQ-cIq"/>
+                            <constraint firstItem="h5J-BQ-LBe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kHD-D8-bxF"/>
+                            <constraint firstItem="hzz-Aq-Zcr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kyb-3h-K6d"/>
+                            <constraint firstItem="hzz-Aq-Zcr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vl1-ab-TpX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gradient" width="57" height="806"/>
+        <image name="swift2" width="200" height="200"/>
+    </resources>
+</document>
