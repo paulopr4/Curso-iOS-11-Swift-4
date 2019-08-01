@@ -8,7 +8,58 @@
 
 import Foundation
 
+enum UserDefaultsKeys: String {
+    case timeInverval = "timveInverval"
+    case colorScheme = "colorScheme"
+    case autorefresh = "autorefresh"
+}
+
 class Configuration {
+    
+    let defaults = UserDefaults.standard
+    static var  shared: Configuration = Configuration()
+    
+    var timeInverval: Double  {
+        get {
+            return defaults.double(forKey: UserDefaultsKeys.timeInverval.rawValue) // método usado para recuperar valor no Userdefauts
+            
+            }
+        
+        set {
+           defaults.set(newValue, forKey: UserDefaultsKeys.timeInverval.rawValue)
+        }
+    }
+    
+    var colorScheme: Int  {
+        get {
+            return defaults.integer(forKey: UserDefaultsKeys.colorScheme.rawValue) // método usado para recuperar valor no Userdefauts
+            
+        }
+        
+        set {
+            defaults.set(newValue, forKey: UserDefaultsKeys.colorScheme.rawValue)
+        }
+    }
+    
+    var autorefresh: Bool  {
+        get {
+            return defaults.bool(forKey: UserDefaultsKeys.autorefresh.rawValue) // método usado para recuperar valor no Userdefauts
+            
+        }
+        
+        set {
+            defaults.set(newValue, forKey: UserDefaultsKeys.autorefresh.rawValue)
+        }
+    }
+    
+    
+    private init() {
+        if defaults.double(forKey: UserDefaultsKeys.timeInverval.rawValue) == 0 {
+            defaults.set(8.0, forKey: UserDefaultsKeys.colorScheme.rawValue)
+        }
+        
+        
+    }
     
     
 }

@@ -203,7 +203,6 @@
                     <connections>
                         <outlet property="lbTimeInterval" destination="Hcy-rA-9AX" id="Fa5-3p-4N2"/>
                         <outlet property="scColorScheme" destination="LZc-dP-ePh" id="WdZ-xn-M6h"/>
-                        <outlet property="slTimeInerval" destination="btS-ad-Ca1" id="u6K-V2-YMV"/>
                         <outlet property="slTimeInterval" destination="btS-ad-Ca1" id="y5c-sC-BIE"/>
                         <outlet property="swAutorefresh" destination="fES-rj-mH6" id="DgK-KN-g9d"/>
                     </connections>

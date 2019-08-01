@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90478BEE22F2380300333699 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90478BED22F2380300333699 /* Settings.bundle */; };
 		90709BA122EF546000712A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90709BA022EF546000712A6F /* AppDelegate.swift */; };
 		90709BA622EF546000712A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90709BA422EF546000712A6F /* Main.storyboard */; };
 		90709BA822EF546200712A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90709BA722EF546200712A6F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90478BED22F2380300333699 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		90709B9D22EF546000712A6F /* Sc07_App_Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sc07_App_Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90709BA022EF546000712A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90709BA522EF546000712A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				90709B9F22EF546000712A6F /* Sc07_App_Pensamentos */,
 				90709BA422EF546000712A6F /* Main.storyboard */,
+				90478BED22F2380300333699 /* Settings.bundle */,
 				90709B9E22EF546000712A6F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				9075FD6222F0CD22002B98D8 /* quotes.json in Resources */,
 				90709BAB22EF546200712A6F /* LaunchScreen.storyboard in Resources */,
+				90478BEE22F2380300333699 /* Settings.bundle in Resources */,
 				90709BA822EF546200712A6F /* Assets.xcassets in Resources */,
 				90709BA622EF546000712A6F /* Main.storyboard in Resources */,
 			);

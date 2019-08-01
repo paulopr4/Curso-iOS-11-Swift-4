@@ -16,39 +16,56 @@ class QuotesViewController: UIViewController {
     @IBOutlet weak var lbAuthor: UILabel!
     @IBOutlet weak var lcTop: NSLayoutConstraint!
     
+    let config = Configuration.shared
+    
     
     var quotesManager = QuotesManager()
     var timer : Timer?
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "Refresh") , object: nil, queue: nil) { (Notification) in
+            self.formatView()
+        }
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        prepareQuote()
+        formatView()
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         prepareQuote()
     }
     
+    func formatView() {
+        view.backgroundColor = config.colorScheme == 0 ? .white : UIColor(red: 156/255.0, green: 68.0/255.0, blue: 15.0/255.0, alpha: 1.0)
+        lbQuote.textColor = config.colorScheme == 0 ? . black : .white
+        lbAuthor.textColor = config.colorScheme == 0 ? UIColor(red: 192.0/255.0, green: 96/255.0, blue: 49.0/255.0, alpha: 1.0) : .yellow
+        prepareQuote()
+        print("ativado formatView")
+        
+    }
+    
     func  prepareQuote() {
         timer?.invalidate()
-      timer = Timer.scheduledTimer(withTimeInterval: 8.0, repeats: true) { (timer) in
-         self.showRandomQuote()
+        if config.autorefresh {
+            timer = Timer.scheduledTimer(withTimeInterval: config.timeInverval, repeats: true) { (timer) in
+                self.showRandomQuote()
+            }
         }
         showRandomQuote()
-        }
+    }
     
     func showRandomQuote() {
         let quote = quotesManager.getRandomQuote()
         lbQuote.text = quote.quote
         lbAuthor.text = quote.author
         ivPhoto.image = UIImage(named: quote.image)
+        ivPhoto.image = ivPhoto.image
         
         lbQuote.alpha = 8.0
         lbAuthor.alpha = 0.0
@@ -67,5 +84,5 @@ class QuotesViewController: UIViewController {
         }
         
     }
-
+    
 }
