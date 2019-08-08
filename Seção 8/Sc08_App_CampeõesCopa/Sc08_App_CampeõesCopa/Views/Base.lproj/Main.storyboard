@@ -13,7 +13,7 @@
         <!--Root View Controller-->
         <scene sceneID="ViY-Qe-7rH">
             <objects>
-                <tableViewController id="Sg7-5D-DAF" customClass="WinnersTableViewController" customModule="Sc08_App_Campeo_esCopa" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Sg7-5D-DAF" customClass="teste2" customModule="Sc08_App_Campeo_esCopa" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="40d-s6-D6D" customClass="wi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,10 +162,10 @@
             </objects>
             <point key="canvasLocation" x="505.79710144927537" y="-48.214285714285715"/>
         </scene>
-        <!--World Cup View Controller-->
+        <!--World Cup View Control-->
         <scene sceneID="Pie-h2-M7e">
             <objects>
-                <viewController id="D03-Jm-nPq" customClass="WorldCupViewController" customModule="Sc08_App_Campeo_esCopa" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="D03-Jm-nPq" customClass="WorldCupViewControl" customModule="Sc08_App_Campeo_esCopa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Wf-LU-yA8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

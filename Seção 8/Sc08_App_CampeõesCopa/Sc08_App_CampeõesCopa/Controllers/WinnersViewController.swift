@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WinnersTableViewController: UITableViewController {
+class teste2: UITableViewController {
     
     var worldCups: [WorldCup] = []
     

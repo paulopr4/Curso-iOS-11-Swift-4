@@ -1,14 +1,14 @@
 //
-//  WorldCupViewController.swift
-//  Sc08_App_CampeõesCopa
+//  WordCupViewController.swift
+//  Sc08_App_CampeõesCopaV2
 //
-//  Created by paulopr4 on 05/08/19.
+//  Created by paulopr4 on 07/08/19.
 //  Copyright © 2019 paulopr4. All rights reserved.
 //
 
 import UIKit
 
-class WorldCupViewController: UIViewController {
+class WordCupViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
