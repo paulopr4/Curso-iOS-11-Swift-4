@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carangas/ViewControllers/AddEditViewController.swift"
+            timestampString = "588622472.228753"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "addEdit(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carangas/ViewControllers/AddEditViewController.swift"
+            timestampString = "588622472.228898"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "addEdit(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carangas/ViewControllers/AddEditViewController.swift"
+            timestampString = "588622472.22896"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "addEdit(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carangas/REST.swift"
+            timestampString = "588622472.229049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "loadBrands(onComplete:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Carangas.REST.loadBrands(onComplete: (Swift.Optional&lt;Swift.Array&lt;Carangas.Brand&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Carangas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulopr4/Documents/Curso%20iOS%2011%20Swift%204/Sec%CC%A7a%CC%83o%2014/Carangas%20v2%20/Carangas/Carangas/REST.swift"
+                  timestampString = "588620187.54141"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "411">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Carangas.REST.loadBrands(onComplete: (Swift.Optional&lt;Swift.Array&lt;Carangas.Brand&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Carangas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulopr4/Documents/Curso%20iOS%2011%20Swift%204/Sec%CC%A7a%CC%83o%2014/Carangas%20v2%20/Carangas/Carangas/REST.swift"
+                  timestampString = "588620187.543901"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "226">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carangas/REST.swift"
+            timestampString = "588622472.229109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "loadBrands(onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carangas/REST.swift"
+            timestampString = "588622472.229161"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "loadCars(onComplete:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carangas/ViewControllers/CarsTableViewController.swift"
+            timestampString = "588622472.229232"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "CarsTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carangas.CarsTableViewController.__allocating_init(style: __C.UITableViewStyle) -&gt; Carangas.CarsTableViewController"
+                  moduleName = "Carangas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulopr4/Documents/Curso%20iOS%2011%20Swift%204/Sec%CC%A7a%CC%83o%2014/Carangas%20v2%20/Carangas/Carangas/ViewControllers/CarsTableViewController.swift"
+                  timestampString = "588620187.66101"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carangas.CarsTableViewController.init(style: __C.UITableViewStyle) -&gt; Carangas.CarsTableViewController"
+                  moduleName = "Carangas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulopr4/Documents/Curso%20iOS%2011%20Swift%204/Sec%CC%A7a%CC%83o%2014/Carangas%20v2%20/Carangas/Carangas/ViewControllers/CarsTableViewController.swift"
+                  timestampString = "588620187.6639791"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carangas.CarsTableViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Carangas.CarsTableViewController"
+                  moduleName = "Carangas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulopr4/Documents/Curso%20iOS%2011%20Swift%204/Sec%CC%A7a%CC%83o%2014/Carangas%20v2%20/Carangas/Carangas/ViewControllers/CarsTableViewController.swift"
+                  timestampString = "588620187.667407"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carangas.CarsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Carangas.CarsTableViewController"
+                  moduleName = "Carangas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulopr4/Documents/Curso%20iOS%2011%20Swift%204/Sec%CC%A7a%CC%83o%2014/Carangas%20v2%20/Carangas/Carangas/ViewControllers/CarsTableViewController.swift"
+                  timestampString = "588620187.669506"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "177">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carangas.CarsTableViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Carangas.CarsTableViewController&gt;"
+                  moduleName = "Carangas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulopr4/Documents/Curso%20iOS%2011%20Swift%204/Sec%CC%A7a%CC%83o%2014/Carangas%20v2%20/Carangas/Carangas/ViewControllers/CarsTableViewController.swift"
+                  timestampString = "588620187.67153"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carangas.CarsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Carangas.CarsTableViewController&gt;"
+                  moduleName = "Carangas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulopr4/Documents/Curso%20iOS%2011%20Swift%204/Sec%CC%A7a%CC%83o%2014/Carangas%20v2%20/Carangas/Carangas/ViewControllers/CarsTableViewController.swift"
+                  timestampString = "588620187.673311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Carangas.CarsTableViewController.__deallocating_deinit"
+                  moduleName = "Carangas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulopr4/Documents/Curso%20iOS%2011%20Swift%204/Sec%CC%A7a%CC%83o%2014/Carangas%20v2%20/Carangas/Carangas/ViewControllers/CarsTableViewController.swift"
+                  timestampString = "588620187.675006"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Carangas/ViewControllers/CarsTableViewController.swift"
+            timestampString = "588622472.229291"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

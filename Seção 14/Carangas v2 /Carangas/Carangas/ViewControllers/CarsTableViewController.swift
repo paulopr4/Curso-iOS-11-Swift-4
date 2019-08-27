@@ -9,43 +9,64 @@
 import UIKit
 
 class CarsTableViewController: UITableViewController {
+    
+    var cars: [Car] = []
+    var label: UILabel = {
+    let label = UILabel()
+    label.textAlignment = .center
+    label.textColor = UIColor(named: "main")
+    return label
+    }()
 
     override func viewDidLoad() {
+        label.text = "Carregando carros..."
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        REST.loadCars(onComplete: { (cars) in
+            
+            self.cars =  cars
+            DispatchQueue.main.async {
+                self.label.text = "Não existem  carros cadastrados."
+            self.tableView.reloadData()
+            }
+           
+            
+        }) { (error) in
+        print(error)
+            
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "viewSegue" {
+            let vc = segue.destination as! CarViewController
+        vc.car = cars[tableView.indexPathForSelectedRow!.row]
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
     // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        tableView.backgroundView = cars.count == 0 ? label : nil
+        return cars.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
-        // Configure the cell...
+       let car = cars[indexPath.row]
+        cell.textLabel?.text = car.name
+        cell.detailTextLabel?.text = car.brand
 
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.
@@ -55,17 +76,28 @@ class CarsTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        
+            let car = cars[indexPath.row]
+            
+            REST.delete(car: car, onComplete: { (sucess) in
+                if sucess {
+                    
+                    self.cars.remove(at: indexPath.row)
+                    
+                    DispatchQueue.main.async {
+                         tableView.deleteRows(at: [indexPath], with: .fade)
+                        
+                    }
+                }
+            })
+            
+        }
     }
-    */
+    
 
     /*
     // Override to support rearranging the table view.
